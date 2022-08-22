@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: #ddd;
+
+}
+
+ul li{
+    list-style: none;
+
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+height: 95vh;
+background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../imgs/header-image.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+}
+.header .logo,header .navbar a{
+    color: white;
+
+}
+/* .navbar{
+    border: 2px solid white;
+} */
+
+.navbars .logo{
+    float: left;
+  
+
+}
+.navbar .nav-items{
+    float: right;
+}
+.header .navbar .navitem{
+    display: inline-block;
+    padding-right: 100px;
+     padding-top: 15px; 
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo{
+    /* margin-top: 10px; */
+    margin-left: 100px;
+    padding-top: 15px; 
+    display: inline-block;
+    
+
+
+}
+
+.travel{
+   color: white;
+   /* display: inline-block; */
+   margin-top: 200px;
+   /* margin-left: 542px; */
+   text-align: center;
+
+}
+
+.para1{
+    color: white;
+    text-align: center;
+}
+
+.book{
+display: block;
+margin-left: 580px;
+cursor: pointer;
+margin-top: 5px;
+font-family:'Montserrat' ;
+border-radius: 10px;
+padding: 2px;
+
+}
+
+:hover.book{
+    background-color: aqua;
+    color: rgb(128, 0, 0);
+}
+
+/* ##################### showcase #################### */
+
+.showcase{
+    background: #ddd;
+    padding: 5rem 0;
+}
+
+.row{
+    height: 250px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.315);
+}
+
+.row1{
+    margin-bottom:5rem;
+}
+.row1 .imgbox, .row2 .textbox{
+    float: left;
+    width: 50%;
+}
+
+.row2 .imgbox, .row1 .texbox{
+    float: right;
+    width: 50%;
+}
+
+.row .imgbox{
+    /* border: 4px solid red; */
+    height: 100%;
+}
+
+.row .textbox{
+    /* border: 4px solid red; */
+    height: 100%;
+    padding: 5px;
+    background: white;
+    font-style: bold;
+}
+
+.row .imgbox img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.traveling1{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(10, 166, 36);
+}
+
+.traveling2{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(10, 166, 36);
+}
+
+.p1{
+   padding: 20px;
+   text-align: center;
+}
+
+.p2{
+    text-align: center;
+}
+
+.more{
+   float: right;
+   margin-right: 280px;
+}
+
+.more2{
+    margin-left: 280px;
+    margin-top: 15px;
+}
+
+/* ##################### features ############################  */
+
+.features{
+    background: #ddd;
+
+}
+.box-wrapper{
+    margin-top: 200px;
+}
+
+.box{
+    width: 33.333333%;
+    float: left;
+    border: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box1{
+    background-color: rgba(0, 0, 0, 0.268);
+}
+
+.box2{
+    background-color: teal;
+}
+
+.box3{
+    background-color: rgba(0, 0, 0, 0.268);
+}
+
+
+
+/* #################### footer ####################### */
+
+.footer{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.716);
+    color: white;
+    text-align: center;
+}
+
+
+/* ################ About ################# */
+
+.bg-dark{
+    background-color:rgba(0, 0, 0, 0.716) ;
+
+}
+
+.about{
+    padding: 5rem 0;
+}
+.about-heading{
+    border-bottom: 2px solid red;
+}
+
+.about-wrapper{
+   margin-top: 30px;
+    text-align: center;
+}
+
+.about-left{
+    float: left;
+    width: 50%;
+}
+
+.about-right{
+    float: right;
+    width: 50%;
+}
+
+
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
+    content: '\2713';
+}
+
+.count{
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+.count span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.852);
+}
+
+.count p{
+    font-size: 15px;
+    font-weight: 500px;
+}
+.item1{
+    float: left;
+    width: 25%;
+
+}
+
+.item2{
+    float: right;
+    width: 25%;
+}
+
+.item3{
+    float: right;
+    width: 25%;
+}
+
+.item4{
+    float: right;
+    width: 25%;
+}
+
+
+.cta-banner{
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-top: 30px;
+
+}
+
+.banner-contact{
+    float: right;
+    width: 40%;
+    text-align: center;
+   
+}
+
+.down{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .down{
+    background: palegreen;
+    border:1px solid  red
+  
+}
+
+.btn-contact{
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    margin-bottom: 25px;
+    color: white;
+    background: black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.315) ;
+
+}
+
+.bannerp{
+    font-size: 2rem;
+    color: violet;
+}
+
+
+/* ######################## contact ####################### */
+
+.contact-form{
+    padding: 5rem 0;
+   
+
+}
+
+
+.form-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+.compony-address{
+    width: 49%;
+    float: left;
+    border: 2px solid black;
+    background: #ffff;
+
+
+}
+
+.form{
+    width: 49%;
+    float: right;
+    border: 2px solid black;
+    background: #ffff;
+
+}
+
+
+/* ############ media queries ########## */
+
+
+@media(max-width: 500px){
+   html{
+    font-size: 50%;
+   }
+   .navbar .navitems, .navbar .logo{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+   }
+
+   .row{
+    height: auto;
+    width: 100%;
+
+   }
+   .row .imgbox, .row .textbox{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+
+   .down .cta-banner, .down .banner-contact{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+}
+
